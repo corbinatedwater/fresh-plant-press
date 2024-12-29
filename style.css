@@ -1,0 +1,268 @@
+/*color pallete 4b553a*/
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  font-family: Arial;
+
+  padding: 10px;
+
+  background: #F7F7F3;
+
+;
+
+}
+
+
+/* Header/Blog Title */
+
+.header {
+
+  padding: 15%;
+
+  text-align: center;
+
+}
+
+
+.header h1 {
+
+  font-size: 50px;
+
+  color: #B6AD90; 
+
+  font-family: DejaVu Sans Mono, monospace; 
+
+}
+
+/*Plant of the Week Title */
+
+.Plantoftheweek h3 {
+
+color: #B6AD90; 
+
+  font-family: DejaVu Sans Mono, monospace; 
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: #ddd;
+
+  color: black;
+
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+/* Left column */
+
+.leftcolumn {   
+
+  float: left;
+
+  width: 65%;
+
+}
+
+
+/* Right column */
+
+.rightcolumn {
+
+  float: left;
+
+  width: 35%;
+
+  background-color: #f1f1f1;
+
+  padding-left: 20px;
+
+}
+
+
+/* Fake image */
+
+.fakeimg {
+
+  background-color: #aaa;
+
+  width: 100%;
+
+  padding: 5px; 
+
+}
+
+
+/* Add a card effect for articles */
+
+.card {
+
+  background-color: white;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+}
+
+
+/* Clear floats after the columns */
+
+.row::after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+/* Footer */
+
+.footer {
+
+  padding: 20px;
+
+  text-align: center;
+
+  background: #ddd;
+
+  margin-top: 20px;
+
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn, .rightcolumn {   
+
+    width: 100%;
+
+    padding: 0;
+
+  }
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+
+  overflow: hidden;
+
+  background-color: #656D4A;
+
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+
+  float: right;
+
+  display: block;
+
+  text-align: center;
+
+  padding: 12px 20px;
+
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+
+  background-color: #656D4A;
+
+  color: #879263;
+
+}
+
+/* Style the header */
+
+.header {
+
+  background-color: #656D4A;
+
+  padding: .02px;
+
+  text-align: center;
+
+}
+
+
+h5 {
+
+color: #B6AD90; 
+
+  font-family: DejaVu Sans Mono, monospace; 
+
+}
+
+p {
+
+  font-family: DejaVu Sans Mono, monospace;
+
+  font-size: 13px;
+
+}
+
+h3 {
+
+color: #582F0E;
+
+text-align: left;
+
+font-family: DejaVu Sas Mono, monospace;
+
+}
+
+li {
+
+color: #B6AD90;
+
+font-family: dejaVu Sas Mono, monospace;
+
+ list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+ }
+
+a:link {
+
+color:#333D29;
+
+}
+
+a:visited {
+
+color:#656D4A;
+
+}
+
+a:hover {
+
+color:#A4AC86;
+
+}
